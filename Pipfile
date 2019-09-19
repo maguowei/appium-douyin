@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+appium-python-client = {index = "https://mirrors.aliyun.com/pypi/simple/",version = "*"}
+mitmproxy = {index = "https://mirrors.aliyun.com/pypi/simple/",version = "*"}
+pymongo = {index = "https://mirrors.aliyun.com/pypi/simple/",version = "*"}
+redis = {index = "https://mirrors.aliyun.com/pypi/simple/",version = "*"}
+ipython = {index = "https://mirrors.aliyun.com/pypi/simple/",version = "*"}
+mongoengine = {index = "https://mirrors.aliyun.com/pypi/simple/",version = "*"}
+
+[requires]
+python_version = "3.7"
