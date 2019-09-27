@@ -28,11 +28,21 @@ brew install carthage
 
 - https://docs.mitmproxy.org/stable/concepts-certificates/
 
-### 启动
+
+### mitmproxy 启动
 
 ```bash
 make run
 ```
+
+### 真机需要设置的环境变量
+
+```bash
+export udid=xxxxx; xcodeOrgId=xxxxx
+```
+
+- [Basic (automatic) configuration](https://github.com/appium/appium/blob/master/docs/en/drivers/ios-xcuitest-real-devices.md#basic-automatic-configuration)
+
 
 ## 查看爬取到的数据
 

@@ -1,4 +1,5 @@
 import time
+import os
 import random
 import copy
 from appium import webdriver
@@ -11,8 +12,8 @@ IOS_BASE_CAPS = {
     'deviceName': 'My iPhone',
     'bundleId': 'com.ss.iphone.ugc.Aweme',
     # 'bundleId': 'com.zhihu.ios',
-    'udid': 'xxxxxxxxxx',
-    'xcodeOrgId': 'xxxxxxxxx',
+    'udid': os.environ.get('udid'),
+    'xcodeOrgId': os.environ.get('xcodeOrgId'),
     'xcodeSigningId': 'iPhone Developer',
     'printPageSourceOnFindFailure': True,
     'autoAcceptAlerts': True,
