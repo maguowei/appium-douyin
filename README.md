@@ -2,6 +2,8 @@
 
 crawl douyin with appium & mitmproxy
 
+- 安卓(uiautomator2)方案参考：[app-crawler](https://github.com/maguowei/app-crawler)
+
 ## 依赖安装
 
 appium 安装
